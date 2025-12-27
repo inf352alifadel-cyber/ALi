@@ -1,0 +1,53 @@
+body {
+  background:#0f172a;
+  color:white;
+  font-family:Arial;
+  text-align:center;
+}
+
+.movies {
+  display:flex;
+  justify-content:center;
+  gap:20px;
+}
+
+.movie-card {
+  background:#1e293b;
+  padding:10px;
+  border-radius:15px;
+  width:180px;
+  text-decoration:none;
+  color:white;
+}
+
+.movie-card img {
+  width:100%;
+  border-radius:10px;
+}
+
+.rating-box {
+  background:gold;
+  color:black;
+  padding:10px 20px;
+  border-radius:20px;
+  text-decoration:none;
+}
+
+.genres span {
+  background:#334155;
+  padding:8px 12px;
+  margin:5px;
+  border-radius:20px;
+}
+
+.actors {
+  display:flex;
+  justify-content:center;
+  gap:15px;
+}
+
+.actor {
+  background:#1e293b;
+  padding:10px;
+  border-radius:10px;
+}
